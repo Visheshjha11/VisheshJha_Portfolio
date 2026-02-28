@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 
 import { Cursor } from './components/Cursor';
 import { ProgressBar } from './components/ProgressBar';
@@ -39,6 +40,7 @@ function App() {
       <Reviews />
       <Contact />
       <Footer />
+      <Analytics />
     </>
   );
 }
