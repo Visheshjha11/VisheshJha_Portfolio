@@ -32,17 +32,17 @@ export function Experience() {
                 Contribute to improving engagement and visibility of club activities through structured content.
               </li>
             </ul>
-            <div className="mt-4 pt-4 border-t-2 border-dashed border-gray-300">
+            <div className="mt-4 pt-4 border-t-2 border-dashed border-gray-300 flex flex-wrap items-center gap-2">
               <span className="font-bold text-black uppercase tracking-wider text-sm mr-2">
                 Skills Used:
               </span>
-              <span className="font-mono text-sm bg-neo-black text-white px-2 py-1 mr-2">
+              <span className="font-mono text-sm bg-neo-black text-white px-2 py-1 whitespace-nowrap">
                 Content Writing
               </span>
-              <span className="font-mono text-sm bg-neo-black text-white px-2 py-1 mr-2">
+              <span className="font-mono text-sm bg-neo-black text-white px-2 py-1 whitespace-nowrap">
                 Copywriting
               </span>
-              <span className="font-mono text-sm bg-neo-black text-white px-2 py-1">
+              <span className="font-mono text-sm bg-neo-black text-white px-2 py-1 whitespace-nowrap">
                 Communication
               </span>
             </div>

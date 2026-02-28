@@ -8,11 +8,11 @@ export function Hero() {
       </div>
 
       <div className="relative z-10 text-center max-w-5xl">
-        <h1 className="text-[13vw] md:text-[10vw] leading-[0.8] font-black uppercase tracking-tighter mb-6 reveal mix-blend-darken">
+        <h1 className="text-[13vw] md:text-[10vw] leading-tight md:leading-[0.8] font-black uppercase tracking-tighter mb-8 md:mb-6 reveal mix-blend-darken">
           FULL STACK<br />
           <span
-            className="text-white text-stroke-black"
-            style={{ WebkitTextStroke: "3px black" }}
+            className="text-white"
+            style={{ WebkitTextStroke: "min(2px, 0.5vw) black" }}
           >
             DEVELOPER
           </span>
