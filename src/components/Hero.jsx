@@ -31,7 +31,7 @@ export function Hero() {
             OPEN ARCHIVE
           </a>
           <a
-            href="VisheshJha_Resume.pdf"
+            href="/VisheshJha_Resume.pdf"
             download
             className="bg-neo-white text-black border-2 border-black px-10 py-5 text-xl font-bold shadow-hard hover:bg-neo-pink hover:text-black hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all cursor-hover flex items-center justify-center gap-2"
           >
