@@ -92,7 +92,7 @@ export function Projects() {
           <article className="reveal group bg-white border-4 border-black p-4 shadow-hard">
             <div className="bg-black border-2 border-black aspect-video relative overflow-hidden mb-6 group-hover:shadow-none transition-all">
               <img
-                src="./assets/pulse.png"
+                src="PULSE_img.png"
                 alt="PULSE — Wearable Emergency Device"
                 className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
               />

@@ -18,16 +18,10 @@ import { useCursor } from './hooks/useCursor';
 import { useScrollProgress } from './hooks/useScrollProgress';
 import { useScrollReveal } from './hooks/useScrollReveal';
 
-import { fetchGitHubStats } from './services/githubStats';
-
 function App() {
   useCursor();
   useScrollProgress();
   useScrollReveal();
-
-  useEffect(() => {
-    fetchGitHubStats();
-  }, []);
 
   return (
     <>

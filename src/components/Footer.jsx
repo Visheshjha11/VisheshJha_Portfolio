@@ -28,7 +28,7 @@ export function Footer() {
             <li>
               <a
                 href="#projects"
-                className="hover:text-white hover:underline decoration-neo-pink decoration-2 cursor-hover"
+                className="hover:text-white hover:underline decoration-neo-yellow decoration-2 cursor-hover"
               >
                 Works
               </a>
@@ -36,7 +36,7 @@ export function Footer() {
             <li>
               <a
                 href="#about"
-                className="hover:text-white hover:underline decoration-neo-pink decoration-2 cursor-hover"
+                className="hover:text-white hover:underline decoration-neo-blue decoration-2 cursor-hover"
               >
                 About
               </a>
@@ -44,7 +44,7 @@ export function Footer() {
             <li>
               <a
                 href="#contact"
-                className="hover:text-white hover:underline decoration-neo-pink decoration-2 cursor-hover"
+                className="hover:text-white hover:underline decoration-neo-green decoration-2 cursor-hover"
               >
                 Contact
               </a>
