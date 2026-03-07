@@ -11,6 +11,16 @@ body {
     40px 40px,
     100px 100px,
     100px 100px;
+  overflow-x: hidden;
+}
+
+/* Hide scrollbar globally */
+::-webkit-scrollbar {
+  display: none;
+}
+html, body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 /* Custom Cursor */
