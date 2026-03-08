@@ -6,7 +6,7 @@ export function BackgroundMusic() {
 
   useEffect(() => {
     if (audioRef.current) {
-      audioRef.current.volume = 0.04; // Set very low volume to ensure it's just background presence
+      audioRef.current.volume = 0.08; // Set low volume but audible enough for background presence
     }
   }, []);
 
