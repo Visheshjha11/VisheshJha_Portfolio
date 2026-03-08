@@ -15,7 +15,7 @@ export function About() {
             products that solve real problems. The web doesn't need more noise - it needs intelligence, clarity, and execution.
           </p>
           <div
-            className="font-mono text-sm sm:text-base md:text-lg mb-8 text-black border-4 border-black p-4 md:p-6 bg-neo-white relative shadow-[4px_4px_0_#000] md:shadow-[8px_8px_0_#000]"
+            className="font-mono text-sm sm:text-base md:text-lg mb-8 text-black border-4 border-black p-4 md:p-6 bg-neo-white relative shadow-hard hover:shadow-hard-xl transition-all"
           >
             <div className="absolute -top-3 -left-3 bg-neo-pink border-2 border-black w-6 h-6 rotate-45"></div>
             <ul className="space-y-4">

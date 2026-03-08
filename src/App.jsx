@@ -3,6 +3,7 @@ import { Analytics } from '@vercel/analytics/react';
 
 import { Cursor } from './components/Cursor';
 import { ProgressBar } from './components/ProgressBar';
+import { BackgroundMusic } from './components/BackgroundMusic';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { Marquee } from './components/Marquee';
@@ -28,6 +29,7 @@ function App() {
     <>
       <Cursor />
       <ProgressBar />
+      <BackgroundMusic />
       
       <Navbar />
       <Hero />
