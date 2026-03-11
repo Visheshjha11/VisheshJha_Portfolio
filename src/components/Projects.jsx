@@ -46,6 +46,7 @@ export function Projects() {
               <a
                 href="https://prep-x.vercel.app/"
                 className="w-12 h-12 flex-shrink-0 border-2 border-black bg-neo-green flex items-center justify-center hover:bg-black hover:text-white transition-all cursor-hover shadow-hard-sm ml-4"
+                aria-label="View PrepX Project"
               >
                 <i className="ri-arrow-right-up-line text-2xl"></i>
               </a>
@@ -83,6 +84,7 @@ export function Projects() {
               <a
                 href="https://github.com/visheshjha11/Veronica"
                 className="w-12 h-12 flex-shrink-0 border-2 border-black bg-neo-green flex items-center justify-center hover:bg-black hover:text-white transition-all cursor-hover shadow-hard-sm ml-4"
+                aria-label="View Veronica Project"
               >
                 <i className="ri-arrow-right-up-line text-2xl"></i>
               </a>
@@ -121,6 +123,7 @@ export function Projects() {
               <a
                 href="https://github.com/visheshjha11/Pulse"
                 className="w-12 h-12 flex-shrink-0 border-2 border-black bg-neo-green flex items-center justify-center hover:bg-black hover:text-white transition-all cursor-hover shadow-hard-sm ml-4"
+                aria-label="View Pulse Project"
               >
                 <i className="ri-arrow-right-up-line text-2xl"></i>
               </a>

@@ -60,24 +60,28 @@ export function Footer() {
             <a
               href="https://www.leetcode.com/"
               className="text-2xl hover:text-neo-blue transition-colors cursor-hover"
+              aria-label="LeetCode Profile"
             >
               <i className="ri-code-fill"></i>
             </a>
             <a
               href="https://www.instagram.com/visheshjha11"
               className="text-2xl hover:text-neo-pink transition-colors cursor-hover"
+              aria-label="Instagram Profile"
             >
               <i className="ri-instagram-fill"></i>
             </a>
             <a
               href="https://github.com/Visheshjha11"
               className="text-2xl hover:text-neo-yellow transition-colors cursor-hover"
+              aria-label="GitHub Profile"
             >
               <i className="ri-github-fill"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/visheshjha11/"
               className="text-2xl hover:text-neo-purple transition-colors cursor-hover"
+              aria-label="LinkedIn Profile"
             >
               <i className="ri-linkedin-fill"></i>
             </a>

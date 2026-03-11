@@ -173,6 +173,7 @@ export function CodingStats() {
                   target="_blank"
                   rel="noreferrer"
                   className="text-neo-green px-3 py-1 font-black uppercase border border-neo-green hover:bg-neo-green hover:text-black transition-all"
+                  aria-label="View GitHub Profile"
                 >
                   VIEW_GH →
                 </a>

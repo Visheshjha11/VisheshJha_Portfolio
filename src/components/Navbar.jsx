@@ -27,6 +27,7 @@ export function Navbar() {
         <a
           href="#"
           className="bg-neo-white border-2 border-black px-4 py-1 text-2xl font-black shadow-hard hover:bg-neo-orange transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-none cursor-hover pointer-events-auto"
+          aria-label="Home / Vishesh Jha Logo"
         >
           VJ
         </a>

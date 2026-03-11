@@ -80,10 +80,11 @@ export function About() {
             </div>
 
             <div className="mt-8 md:mt-12 pt-4 border-t-4 border-black overflow-hidden relative">
-              <div className="w-full h-6 sm:h-8 flex items-center">
-                <marquee scrollamount="5" className="font-black uppercase text-sm sm:text-lg md:text-xl text-neo-red tracking-widest leading-none block whitespace-nowrap m-0 pt-1">
-                  ALWAYS LEARNING /// ALWAYS BUILDING /// ALWAYS ITERATING /// ALWAYS LEARNING /// ALWAYS BUILDING /// ALWAYS ITERATING 
-                </marquee>
+              <div className="w-full h-6 sm:h-8 flex items-center marquee-container pt-1">
+                <div className="marquee-content font-black uppercase text-sm sm:text-lg md:text-xl text-neo-red tracking-widest leading-none block whitespace-nowrap m-0">
+                  <span>ALWAYS LEARNING /// ALWAYS BUILDING /// ALWAYS ITERATING /// ALWAYS LEARNING /// ALWAYS BUILDING /// ALWAYS ITERATING&nbsp;</span>
+                  <span>ALWAYS LEARNING /// ALWAYS BUILDING /// ALWAYS ITERATING /// ALWAYS LEARNING /// ALWAYS BUILDING /// ALWAYS ITERATING</span>
+                </div>
               </div>
             </div>
           </div>

@@ -50,10 +50,11 @@ export function Contact() {
             <input type="hidden" name="access_key" value="dd7f2afd-0eb9-4eff-8bda-fb9380e815ef" />
 
             <div className="flex flex-col">
-              <label className="font-mono font-bold mb-1 uppercase text-xs">
+              <label htmlFor="name" className="font-mono font-bold mb-1 uppercase text-xs">
                 Identify yourself…
               </label>
               <input
+                id="name"
                 type="text"
                 name="name"
                 required
@@ -62,10 +63,11 @@ export function Contact() {
               />
             </div>
             <div className="flex flex-col">
-              <label className="font-mono font-bold mb-1 uppercase text-xs">
+              <label htmlFor="email" className="font-mono font-bold mb-1 uppercase text-xs">
                 Where should I reply?
               </label>
               <input
+                id="email"
                 type="email"
                 name="email"
                 required
@@ -74,10 +76,11 @@ export function Contact() {
               />
             </div>
             <div className="flex flex-col">
-              <label className="font-mono font-bold mb-1 uppercase text-xs">
+              <label htmlFor="message" className="font-mono font-bold mb-1 uppercase text-xs">
                 Describe your mission.
               </label>
               <textarea
+                id="message"
                 name="message"
                 required
                 rows="4"
