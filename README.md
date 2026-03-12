@@ -28,7 +28,7 @@ Every scroll, hover, border, and animation exists to support that mission.
 ## 🌐 Live Experience
 
 👉 **Visit the portfolio:**  
-https://visheshjha.vercel.app/
+https://visheshjha.me/
 
 ---
 
