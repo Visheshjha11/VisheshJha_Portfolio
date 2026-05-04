@@ -24,6 +24,7 @@ export function BackgroundMusic() {
       setIsPlaying(!isPlaying);
     }
   };
+  
 
   return (
     <>
