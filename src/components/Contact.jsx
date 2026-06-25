@@ -1,10 +1,11 @@
-import { useEffect } from 'react';
-import { attachContactFormListener } from '../services/web3forms';
+
 
 export function Contact() {
-  useEffect(() => {
-    attachContactFormListener();
-  }, []);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert("Contact form is temporarily disabled.");
+  };
 
   return (
     <section id="contact" className="py-24 px-4 max-w-5xl mx-auto">
@@ -16,16 +17,21 @@ export function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div>
             <h2 className="text-6xl font-black uppercase mb-6 leading-[0.85]">
-              Let's<br />Talk
+              Let's
+              <br />
+              Talk
             </h2>
+
             <p className="font-mono text-lg mb-8 text-gray-600">
               Open to freelance projects and full-time roles.
             </p>
+
             <div className="space-y-4">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-neo-black text-white flex items-center justify-center border-2 border-black">
                   <i className="ri-mail-line text-xl"></i>
                 </div>
+
                 <a
                   href="mailto:visheshjha456@gmail.com"
                   className="text-xl font-bold hover:bg-neo-blue cursor-hover"
@@ -33,10 +39,12 @@ export function Contact() {
                   visheshjha456@gmail.com
                 </a>
               </div>
+
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-neo-black text-white flex items-center justify-center border-2 border-black">
                   <i className="ri-map-pin-line text-xl"></i>
                 </div>
+
                 <span className="text-xl font-bold">Earth</span>
               </div>
             </div>
@@ -44,15 +52,18 @@ export function Contact() {
 
           <form
             id="contact-form"
+            onSubmit={handleSubmit}
             className="space-y-6 bg-gray-50 p-6 border-2 border-black"
           >
-            {/* Replace YOUR_ACCESS_KEY_HERE with Web3Forms access key */}
-            <input type="hidden" name="access_key" value="dd7f2afd-0eb9-4eff-8bda-fb9380e815ef" />
-
+            
             <div className="flex flex-col">
-              <label htmlFor="name" className="font-mono font-bold mb-1 uppercase text-xs">
+              <label
+                htmlFor="name"
+                className="font-mono font-bold mb-1 uppercase text-xs"
+              >
                 Identify yourself…
               </label>
+
               <input
                 id="name"
                 type="text"
@@ -62,10 +73,15 @@ export function Contact() {
                 className="bg-white border-2 border-black p-3 font-bold focus:outline-none focus:bg-neo-yellow focus:shadow-hard-sm transition-all cursor-hover"
               />
             </div>
+
             <div className="flex flex-col">
-              <label htmlFor="email" className="font-mono font-bold mb-1 uppercase text-xs">
+              <label
+                htmlFor="email"
+                className="font-mono font-bold mb-1 uppercase text-xs"
+              >
                 Where should I reply?
               </label>
+
               <input
                 id="email"
                 type="email"
@@ -75,10 +91,15 @@ export function Contact() {
                 className="bg-white border-2 border-black p-3 font-bold focus:outline-none focus:bg-neo-yellow focus:shadow-hard-sm transition-all cursor-hover"
               />
             </div>
+
             <div className="flex flex-col">
-              <label htmlFor="message" className="font-mono font-bold mb-1 uppercase text-xs">
+              <label
+                htmlFor="message"
+                className="font-mono font-bold mb-1 uppercase text-xs"
+              >
                 Describe your mission.
               </label>
+
               <textarea
                 id="message"
                 name="message"
@@ -88,6 +109,7 @@ export function Contact() {
                 className="bg-white border-2 border-black p-3 font-bold focus:outline-none focus:bg-neo-yellow focus:shadow-hard-sm transition-all resize-none cursor-hover"
               ></textarea>
             </div>
+
             <button
               type="submit"
               className="w-full bg-neo-blue text-white font-black text-xl py-4 border-2 border-black shadow-hard neo-button hover:bg-neo-black hover:translate-y-1 hover:shadow-none transition-all cursor-hover"

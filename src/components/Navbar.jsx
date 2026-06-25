@@ -64,7 +64,9 @@ export function Navbar() {
             /WORK
           </a>
           <a
-            href="#contact"
+            href="https://www.linkedin.com/in/visheshjha11/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-3 py-1 font-mono font-bold text-sm bg-neo-yellow border border-black hover:bg-neo-pink transition-colors cursor-hover"
           >
             HIRE ME
